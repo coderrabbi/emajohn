@@ -1,0 +1,26 @@
+.logo {
+  text-align: center;
+}
+.logo img {
+  height: 80px;
+}
+.nav-items {
+  display: flex;
+  padding: 0 40px;
+}
+.nav {
+  background-color: black;
+}
+
+.nav-items li a {
+  display: inline-block;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+.nav-items li a:hover {
+  background-color: rgb(201, 201, 201);
+  color: black;
+}
